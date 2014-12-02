@@ -20,6 +20,14 @@
 		</dict>
 		<dict>
 			<key>begin</key>
+			<string>\\\&lt;open\&gt;</string>
+			<key>end</key>
+			<string>\\\&lt;close\&gt;</string>
+			<key>name</key>
+			<string>comment.block.documentation</string>
+		</dict>
+		<dict>
+			<key>begin</key>
 			<string>\(\*</string>
 			<key>end</key>
 			<string>\*\)</string>
