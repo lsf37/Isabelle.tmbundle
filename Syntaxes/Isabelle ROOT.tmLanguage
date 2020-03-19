@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(chapter|session|in|description|options|global_theories|theories|files|document_files|sessions)\b</string>
+			<string>\b(chapter|session|in|description|options|global_theories|theories|files|document_files|sessions|directories)\b</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
