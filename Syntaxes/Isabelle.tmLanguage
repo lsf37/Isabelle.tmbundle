@@ -71,7 +71,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(ML_command|ML_val|class_deps|code_deps|code_thms|display_drafts|find_consts|find_theorems|find_unused_assms|full_prf|help|locale_deps|nitpick|pr|prf|print_abbrevs|print_antiquotations|print_attributes|print_binds|print_bnfs|print_bundles|print_case_translations|print_cases|print_claset|print_classes|print_codeproc|print_codesetup|print_coercions|print_commands|print_context|print_definitions|print_defn_rules|print_dependencies|print_facts|print_induct_rules|print_inductives|print_interps|print_locale|print_locales|print_methods|print_options|print_orders|print_quot_maps|print_quotconsts|print_quotients|print_quotientsQ3|print_quotmapsQ3|print_rules|print_simpset|print_state|print_statement|print_syntax|print_theorems|print_theory|print_trans_rules|prop|pwd|quickcheck|refute|sledgehammer|smt_status|solve_direct|spark_status|term|thm|thm_deps|thy_deps|try|try0|typ|unused_thms|value|values|welcome|print_ML_antiquotations|print_term_bindings|print_record|values_prolog|nunchaku
+			<string>\b(ML_command|ML_val|class_deps|code_deps|code_thms|display_drafts|find_consts|find_theorems|find_unused_assms|full_prf|help|locale_deps|nitpick|pr|prf|print_abbrevs|print_antiquotations|print_attributes|print_binds|print_bnfs|print_bundles|print_case_translations|print_cases|print_claset|print_classes|print_codeproc|print_codesetup|print_coercions|print_commands|print_context|print_definitions|print_defn_rules|print_dependencies|print_facts|print_induct_rules|print_inductives|print_interps|print_locale|print_locales|print_methods|print_options|print_orders|print_quot_maps|print_quotconsts|print_quotients|print_quotientsQ3|print_quotmapsQ3|print_rules|print_simpset|print_state|print_statement|print_syntax|print_theorems|print_theory|print_trans_rules|prop|pwd|quickcheck|refute|sledgehammer|smt_status|solve_direct|spark_status|term|thm|thm_deps|thy_deps|try|try0|typ|unused_thms|value|values|welcome|print_ML_antiquotations|print_term_bindings|print_record|values_prolog|requalify_types|requalify_consts|requalify_facts|global_naming|nunchaku
         )\b</string>
 			<key>name</key>
 			<string>keyword.other.diagnostic</string>
@@ -84,7 +84,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(inductive_cases|inductive_simps|crunch)\b</string>
+			<string>\b(inductive_cases|inductive_simps|crunch|crunches)\b</string>
 			<key>name</key>
 			<string>keyword.other.script</string>
 		</dict>
@@ -96,7 +96,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(have|hence|interpret|next|proof|finally|from|then|ultimately|with|ML_prf|also|include|including|let|moreover|note|unfolding|using|write|also|include|including|let|moreover|note|txt|txt_raw|unfolding|using|supply|write|assume|case|def|fix|presume|consider|guess|obtain|show|subgoal|thus|apply|apply_end|apply_trace|back|defer|prefer|and|by|done|qed)\b</string>
+			<string>\b(have|hence|interpret|next|proof|finally|from|then|ultimately|with|ML_prf|also|include|including|let|moreover|note|unfolding|using|write|also|include|including|let|moreover|note|txt|txt_raw|unfolding|using|supply|write|assume|define|case|def|fix|presume|consider|guess|obtain|show|subgoal|thus|apply|apply_end|apply_trace|back|defer|prefer|and|by|done|qed)\b</string>
 			<key>name</key>
 			<string>keyword.control.proof</string>
 		</dict>
